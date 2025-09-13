@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+}
+.logo {
+  width: 60px;
+  margin-left: 130px;
+}
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.icons a {
+  margin-right: 100px;
+  color: black;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#image_1{
+  width: 1200px;
+  height: 430px;
+  background-image: url("rode-wireless-micro-banner-4721x1721-rgb-1921x700-546b50c.png");
+  background-size: cover;
+  position: relative;
+}
+#image_2{
+  width: 1200px;
+  height: 430px;
+  background-image: url("rode-rodecaster-video-rode-rcv-banner-7273x2652-rgb-1920x700-546b50c.png");
+  background-size: cover;
+}
+#image_3{
+  width: 1200px;
+  height: 520px;
+  background-image: url("rode-wireless-go-3rd-gen-banner-13964x5091-rgb-1921x700-8c89d38.jpg");
+  background-size: cover;
+}
+#image_4{
+  width: 1200px;
+  height: 520px;
+  background-image: url("rode-nth-50-banner-9567x3488-rgb-1920x700-8c89d38.jpg");
+  background-size: cover;
+}
+#image_5{
+  width: 1200px;
+  height: 520px;
+  background-image: url("rode-nt1-ss-black-banner-7234x2637-rgb-1921x700-546b50c.png");
+  background-size: cover;
+}
+#image_6{
+  width: 1200px;
+  height: 520px;
+  background-image: url("rode-white-range-family-banner-8-products-14967x5457-rgb-1920x700-546b50c.png");
+  background-size: cover;
+}
+.RODE_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  top: 200px;
+  left: 50px;
+}
+h1{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 9px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+p{
+  text-align: center;
+  color: rgba(54, 49, 49, 0.9);
+  margin-top: 10px;
+}
+button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin: auto;
+}
+.RCimage_right{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  top: 600px;
+  right: 100px;
+}
+.RCimage_right h1{
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.RCimage_right  p{
+  text-align: center;
+  color: rgba(225, 225, 225, 0.9);
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.RCimage_right button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+}
+.rode-wireless_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  top: 1070px;
+  left: 50px;
+}
+.rode-wireless_left h1{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 9px;
+  font-weight: 400;
+  color: white;
+}
+.rode-wireless_left p{
+  text-align: center;
+  color: rgba(225, 225, 225, 0.9);
+  margin-top: 10px;
+}
+.rode-wireless_left button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.NTH_LOGO_right{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  top: 1600px;
+  right: 100px;
+}
+.NTH_LOGO_right h1{
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.NTH_LOGO_right  p{
+  text-align: center;
+  color: rgba(225, 225, 225, 0.9);
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.NTH_LOGO_right button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+} 
+.NT1SS_LOGO_LEFT{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 500px;
+  top: 2120px;
+  left: 50px;
+}
+.NT1SS_LOGO_LEFT h1{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 9px;
+  font-weight: 400;
+  color: white;
+}
+.NT1SS_LOGO_LEFT p{
+  text-align: center;
+  color: rgba(225, 225, 225, 0.9);
+  margin-top: 10px;
+}
+.NT1SS_LOGO_LEFT button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.RODE_RIGHT{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  top: 2670px;
+  right: 80px;
+  margin: auto;
+}
+.RODE_RIGHT h1{
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.RODE_RIGHT  p{
+  text-align: center;
+  color:rgba(54, 49, 49, 0.9);
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.RODE_RIGHT button{
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+} 
